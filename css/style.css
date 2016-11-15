@@ -1,0 +1,207 @@
+body{
+  margin: 0 auto;
+  width: 90%;
+}
+
+#imgtag
+{
+  position:relative;
+  min-width:300px;
+  min-height:300px;
+  float:left;
+  border:solid 3px #fff;
+  cursor: default;
+}
+#imgtag img {cursor: crosshair;}
+.tagview
+{
+  /* border:solid 3px #fff;
+  width:100px;
+  height:100px;
+  position:absolute;
+  display:none;
+  */
+  border: solid 3px red;
+  width: 30px;
+  height: 30px;
+  display: block !important;
+  position: absolute;
+  background: red;
+  border-radius: 50%;
+}
+#pro_val{padding: 5px;}
+#tagit
+{
+  position:absolute;
+  top:0;left:0;
+  width:250px;
+}
+#tagit .box
+{
+  /*border:solid 3px #fff;
+  width:100px;
+  height:100px;
+  float:left;
+  */
+  border: solid 3px red;
+  width: 30px;
+  height: 30px;
+ /* float: left; */
+  background: red;
+  border-radius: 50%;
+}
+
+#tagit .name {
+  /* float: left; */
+  background-color: #fff;
+  width: 130px;
+  /* height: 80px; */
+  vertical-align: middle;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: -45px;
+  margin-top: 8px;
+}
+#tagit div.text
+{
+  margin-bottom:5px;
+}
+#tagit input[type=text]
+{
+  margin-bottom:5px;
+}
+#tagit #tagname
+{
+  width:110px;
+}
+.taglist
+{
+  background-color:#aaa;
+  width:300px;
+  min-height:200px;
+  height:auto !important;
+  height:200px;
+  float:left;
+  padding:10px;
+  margin-left:20px;
+  color:#000;
+
+}
+.taglist ol { padding:0 20px;float:left;cursor:pointer}
+.taglist ol a { }
+.taglist ol a:hover { text-decoration:underline }
+.tagtitle
+{
+  font-size:14px;
+  text-align:center;
+  width:100%;
+  float:left;
+}
+.save-btn {    background: #58b358;
+  border: none;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  color: white;
+  margin-top: 5px;}
+.cencel-btn {background: #dddddd;
+  border: none;
+  border: 1px solid #e6e6e6;
+  border-radius: 5px;
+  margin-left: 5px;
+  color: black;
+  margin-top: 5px;}
+.main_popup {float: left; width: 100%; cursor: default;}
+
+.main{ float: left; width: 100%; padding: 10px; height: 100%;}
+.img-list { float: left; width: 100%;}
+.img-list tr  {cursor: pointer; float: left; width:10%; background: white; border: none;}
+.img-list tr td{ border: none;}
+.close {color: white; opacity: 1;}
+
+
+.img-list { list-style: none; float: left; width: 100%;}
+.img-list li {
+  float: left;
+  width: 13%;
+  background: white;
+  border: none;
+  margin-right: 1%;
+  margin-bottom: 1%;}
+.img-list li:last-child{margin-right: 0px;}
+.img-list li span img{ cursor: pointer;}
+.img-list li span{  float: left;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;}
+
+.img-show {width: 100%;
+  float: left;}
+
+.loading-div {float: left;
+  width: 100%;
+  text-align: center;
+  display: none;
+}
+
+.loadmore { cursor: pointer;}
+.loadmore button{ color: white; border:none; padding: 10px; background-color:#333;margin-left:auto;margin-right:auto;display:block;margin-top:22%;margin-bottom:0%}
+.loadmore button:hover {background-color:black; }
+/* FOR Suggestion Dropdown */
+
+.img-visible{ float: left; width: auto; display: inline-block; text-align: left;}
+.lbl-img-visible {
+  float: left;
+  width: auto;
+  display: inline-block;
+  margin-left: 6px;
+  cursor: pointer;
+}
+.visible-chek {
+  padding: 5px;
+  border: 1px solid #f2f2f2;
+  padding-bottom: 25px;
+  border-radius: 5px;
+  float: left; width: 75%; display: inline-block;
+}
+
+.inserted, .updated {display: none;}
+
+.alert-box {
+  color:#555;
+  border-radius:10px;
+  font-family:Tahoma,Geneva,Arial,sans-serif;font-size:11px;
+  padding:10px 10px 10px 36px;
+  margin:10px;
+}
+.alert-box span {
+  font-weight:bold;
+  text-transform:uppercase;
+}
+.error {
+  background:#ffecec url('images/error.png') no-repeat 10px 50%;
+  border:1px solid #f5aca6;
+}
+.success {
+  background:#e9ffd9 url('images/success.png') no-repeat 10px 50%;
+  border:1px solid #a6ca8a;
+}
+.warning {
+  background:#fff8c4 url('images/warning.png') no-repeat 10px 50%;
+  border:1px solid #f2c779;
+}
+.notice {
+  background:#e3f7fc url('images/notice.png') no-repeat 10px 50%;
+  border:1px solid #8ed9f6;
+}
+
+.script-msg{
+  display: none;
+  width: 100px;
+  padding: 3px;
+  text-align: center;
+  background: rgba(255, 255, 0, 0.18);
+  color: #333;
+  margin: 0 auto;
+  vertical-align: middle;}
