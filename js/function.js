@@ -2,8 +2,6 @@ $(document).ready(function(){
     $(".loading-div").show(); //show loading element
     $('#more').hide();
 
-  //  var userid = "2139603081";
-  //  var token = "2139603081.1677ed0.f553d639d924413990201b3dda379fdb";
     var userid = "39317227";
     var token = "39317227.1677ed0.3d94f4df187947c390d21268ce574b7f";
     var nextURL = "https://api.instagram.com/v1/users/"+userid+"/media/recent?count=250&access_token="+token;
